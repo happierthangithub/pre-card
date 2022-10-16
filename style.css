@@ -1,0 +1,30 @@
+* {
+box-sizing: border-box;
+padding: 15px 15px 15px 15px;
+margin: 0;
+}
+body {
+    background-color: beige;
+    display: flex;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: grey;
+    box-shadow: 15px 15px;
+}
+ .upper{
+    background-color: aqua;
+    display: flex
+    
+ }
+ img {
+   width: 200px;
+   height: 200px;
+ }
+ .lower {
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+ }

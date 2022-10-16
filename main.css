@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+.container {
+    display: flex;  
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card {
+    background: white;
+    width: 200px;
+    height: 400px;
+    margin: 10px; 
+    border-radius: 15px;
+}
+.card-image {
+    background: aqua;
+    height: 120px;
+    margin-bottom: 20px;
+    background-size: cover; 
+}
+.car-1 {
+    background-image: url('./car-img/lambo.jpeg');
+}
+.car-2 {
+    background-image: url('./car-img/ferrari.jpeg')
+}
+.car-3 {
+    background-image: url('./car-img/force.jpeg');
+}
+.card a {
+    background:black;
+    padding: 12px 15px;
+    display: block;
+    text-align: center;
+    margin: 15px 10px 20px 20px;
+    text-decoration: solid;
+    
+}
+.card:hover {
+background-color: blue;
+color: grey;
+cursor: pointer;
+transform: scale (3);
+transition: all 1s ease;
+}
